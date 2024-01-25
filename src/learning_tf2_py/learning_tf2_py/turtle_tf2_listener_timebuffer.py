@@ -65,11 +65,19 @@ class FrameListener(Node):
                 # Look up for the transformation between target_frame and turtle2 frames
                 # and send velocity commands for turtle2 to reach target_frame
                 try:
+                # TIME BUFFER by doyoung
+                    now = self.get_clock().now()
+                    past = now - rclpy.duration.Duration(seconds=0.1) # buffer : 0.1 s
+                
+                
                     t = self.tf_buffer.lookup_transform(
                         to_frame_rel,
                         from_frame_rel,
-                        rclpy.time.Time()
+                        past.to_msg(),
+                        timeout=rclpy.duration.Duration(seconds=0.1)
                         #self.get_clock().now().to_msg()
+                # TIME BUFFER by doyoung
+
                         )
                     self.get_logger().info(f'Step 2. lets check lookup_transform {self.result.result().name}')
                 except TransformException as ex:
