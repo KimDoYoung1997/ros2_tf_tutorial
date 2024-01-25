@@ -1,0 +1,42 @@
+[0.253s] Invoking command in '/root/tf_test/src/learning_tf2_py': PYTHONPATH=/root/tf_test/build/learning_tf2_py/prefix_override:/root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /root/tf_test/build/learning_tf2_py/build install --record /root/tf_test/build/learning_tf2_py/install.log --install-scripts $base/lib/learning_tf2_py --single-version-externally-managed
+[0.336s] running egg_info
+[0.336s] creating ../../build/learning_tf2_py/learning_tf2_py.egg-info
+[0.337s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.337s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.337s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.337s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.337s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.337s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.351s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.351s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.351s] running build
+[0.351s] running build_py
+[0.351s] creating /root/tf_test/build/learning_tf2_py/build
+[0.351s] creating /root/tf_test/build/learning_tf2_py/build/lib
+[0.351s] creating /root/tf_test/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.352s] copying learning_tf2_py/__init__.py -> /root/tf_test/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.352s] copying learning_tf2_py/turtle_tf2_broadcaster.py -> /root/tf_test/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.352s] copying learning_tf2_py/static_turtle_tf2_broadcaster.py -> /root/tf_test/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.352s] running install
+[0.352s] running install_lib
+[0.352s] creating /root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[0.352s] copying /root/tf_test/build/learning_tf2_py/build/lib/learning_tf2_py/__init__.py -> /root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[0.352s] copying /root/tf_test/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_broadcaster.py -> /root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[0.352s] copying /root/tf_test/build/learning_tf2_py/build/lib/learning_tf2_py/static_turtle_tf2_broadcaster.py -> /root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[0.352s] byte-compiling /root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py/__init__.py to __init__.cpython-38.pyc
+[0.353s] byte-compiling /root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-38.pyc
+[0.353s] byte-compiling /root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-38.pyc
+[0.353s] running install_data
+[0.354s] creating /root/tf_test/install/learning_tf2_py/share/ament_index
+[0.354s] creating /root/tf_test/install/learning_tf2_py/share/ament_index/resource_index
+[0.354s] creating /root/tf_test/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.354s] copying resource/learning_tf2_py -> /root/tf_test/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.354s] copying package.xml -> /root/tf_test/install/learning_tf2_py/share/learning_tf2_py
+[0.354s] creating /root/tf_test/install/learning_tf2_py/share/learning_tf2_py/launch
+[0.354s] running install_egg_info
+[0.354s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info
+[0.355s] running install_scripts
+[0.362s] Installing static_turtle_tf2_broadcaster script to /root/tf_test/install/learning_tf2_py/lib/learning_tf2_py
+[0.362s] Installing turtle_tf2_broadcaster script to /root/tf_test/install/learning_tf2_py/lib/learning_tf2_py
+[0.362s] writing list of installed files to '/root/tf_test/build/learning_tf2_py/install.log'
+[0.370s] Invoked command in '/root/tf_test/src/learning_tf2_py' returned '0': PYTHONPATH=/root/tf_test/build/learning_tf2_py/prefix_override:/root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /root/tf_test/build/learning_tf2_py/build install --record /root/tf_test/build/learning_tf2_py/install.log --install-scripts $base/lib/learning_tf2_py --single-version-externally-managed
