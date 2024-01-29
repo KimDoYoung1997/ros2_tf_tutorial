@@ -1,0 +1,22 @@
+[0.263s] Invoking command in '/root/tf_test/build/learning_tf2_py': PYTHONPATH=/root/tf_test/build/learning_tf2_py/prefix_override:/root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/tf_test/build/learning_tf2_py/build --no-deps install_data
+[0.343s] running develop
+[0.385s] running egg_info
+[0.385s] writing learning_tf2_py.egg-info/PKG-INFO
+[0.385s] writing dependency_links to learning_tf2_py.egg-info/dependency_links.txt
+[0.385s] writing entry points to learning_tf2_py.egg-info/entry_points.txt
+[0.385s] writing requirements to learning_tf2_py.egg-info/requires.txt
+[0.385s] writing top-level names to learning_tf2_py.egg-info/top_level.txt
+[0.399s] reading manifest file 'learning_tf2_py.egg-info/SOURCES.txt'
+[0.400s] writing manifest file 'learning_tf2_py.egg-info/SOURCES.txt'
+[0.414s] running build_ext
+[0.414s] Creating /root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages/learning-tf2-py.egg-link (link to .)
+[0.414s] Installing dynamic_frame_tf2_broadcaster script to /root/tf_test/install/learning_tf2_py/lib/learning_tf2_py
+[0.415s] Installing fixed_frame_tf2_broadcaster script to /root/tf_test/install/learning_tf2_py/lib/learning_tf2_py
+[0.415s] Installing static_turtle_tf2_broadcaster script to /root/tf_test/install/learning_tf2_py/lib/learning_tf2_py
+[0.415s] Installing turtle_tf2_broadcaster script to /root/tf_test/install/learning_tf2_py/lib/learning_tf2_py
+[0.415s] Installing turtle_tf2_listener script to /root/tf_test/install/learning_tf2_py/lib/learning_tf2_py
+[0.415s] Installing turtle_tf2_listener_timebuffer script to /root/tf_test/install/learning_tf2_py/lib/learning_tf2_py
+[0.415s] 
+[0.415s] Installed /root/tf_test/build/learning_tf2_py
+[0.415s] running install_data
+[0.426s] Invoked command in '/root/tf_test/build/learning_tf2_py' returned '0': PYTHONPATH=/root/tf_test/build/learning_tf2_py/prefix_override:/root/tf_test/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/tf_test/build/learning_tf2_py/build --no-deps install_data

@@ -67,7 +67,7 @@ class FrameListener(Node):
                 try:
                 # TIME BUFFER by doyoung
                     now = self.get_clock().now()
-                    past = now - rclpy.duration.Duration(seconds=0.1) # buffer : 0.1 s
+                    past = now - rclpy.duration.Duration(seconds=3.0) # buffer : 0.1 s
                 
                 
                     t = self.tf_buffer.lookup_transform(
