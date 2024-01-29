@@ -70,11 +70,13 @@ class FrameListener(Node):
                     past = now - rclpy.duration.Duration(seconds=3.0) # buffer : 0.1 s
                 
                 
-                    t = self.tf_buffer.lookup_transform(
-                        to_frame_rel,
-                        from_frame_rel,
-                        past.to_msg(),
-                        timeout=rclpy.duration.Duration(seconds=0.1)
+                    t = self.tf_buffer.lookup_transform_full(
+                        target_frame=to_frame_rel, # turtle2
+                        target_time=rclpy.time.Time(), # turtle2
+                        source_frame=from_frame_rel,  # turtle1
+                        source_time = past.to_msg(), # turtle1
+                        fixed_frame = 'world',
+                        timeout=rclpy.duration.Duration(seconds=0.05)
                         #self.get_clock().now().to_msg()
                 # TIME BUFFER by doyoung
 
